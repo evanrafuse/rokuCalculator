@@ -24,10 +24,19 @@
             color="0x617EFF"
             text="Calculator"
         />
-        <NumberPad
+        <!-- <NumberPad
             id="numberPad"
-        />
-
+        /> -->
+        <PosterGrid 
+            translation= "[200, 200]"
+            id = "posterGrid" 
+            basePosterSize = "[ 100, 100 ]" 
+            caption1NumLines = "0" 
+            numColumns = "3" 
+            numRows = "3" 
+            itemSpacing = "[ 20, 20 ]"
+            vertFocusAnimationStyle = "floatingFocus" >
+        </PosterGrid>
     </children>
 </component>
 
