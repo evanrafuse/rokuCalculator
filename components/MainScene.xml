@@ -31,11 +31,13 @@
             translation= "[200, 200]"
             id = "posterGrid" 
             basePosterSize = "[ 100, 100 ]" 
-            caption1NumLines = "0" 
-            numColumns = "3" 
-            numRows = "3" 
+            caption1NumLines = "1"
+            captionVertAlignment = "center"
+            numColumns = "4" 
+            numRows = "4" 
             itemSpacing = "[ 20, 20 ]"
-            vertFocusAnimationStyle = "floatingFocus" >
+            vertFocusAnimationStyle = "floatingFocus"
+            fixedLayout = "true" >
         </PosterGrid>
     </children>
 </component>
