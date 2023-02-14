@@ -24,17 +24,28 @@
             color="0x617EFF"
             text="Calculator"
         />
-        <!-- <NumberPad
-            id="numberPad"
-        /> -->
+        <Label
+            translation="[650,120]"
+            id="calcScreen"
+            font="font:LargestSystemFont"
+            color="0x617EFF"
+            text=""
+        />
+        <Label
+            translation="[650,320]"
+            id="resultScreen"
+            font="font:LargestSystemFont"
+            color="0x617EFF"
+            text=""
+        />
         <PosterGrid 
-            translation= "[200, 200]"
+            translation= "[100, 100]"
             id = "posterGrid" 
             basePosterSize = "[ 100, 100 ]" 
-            caption1NumLines = "1"
+            caption1NumLines = "0"
             captionVertAlignment = "center"
             numColumns = "4" 
-            numRows = "4" 
+            numRows = "5" 
             itemSpacing = "[ 20, 20 ]"
             vertFocusAnimationStyle = "floatingFocus"
             fixedLayout = "true" >
